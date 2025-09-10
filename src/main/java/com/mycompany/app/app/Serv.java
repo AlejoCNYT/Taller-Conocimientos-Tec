@@ -26,6 +26,7 @@ public class Serv {
    String inputLine, outputLine;
    while ((inputLine = in.readLine()) != null) {
       System.out.println("Recibí: " + inputLine);
+      
       if (!in.ready()) {break; }
       
    }
