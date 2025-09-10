@@ -2,8 +2,7 @@ import java.net.*;
 import java.io.*;
 
 public class Serv {
-   private static final String USER_AGENT = "Mozilla/5.0";
-    private static final String GET_URL = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=fb&apikey=Q1QZFVJQ21K7C6XM";
+    private static final String USER_AGENT = "Mozilla/5.0";
 
     public static void main(String[] args) throws IOException {
 
@@ -71,5 +70,7 @@ public class Serv {
                 + "</body>"
                 + "</html>";
     }
+
 }
+
 
